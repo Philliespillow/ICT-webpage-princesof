@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TVL–ICT Strand</title>
+<link rel="stylesheet" href="all.css">
+<style>
+/* Sections */
+
+* {
+    text-align: justify;
+}
+section{
+    background:white;
+    color:#003366;
+    margin:40px auto;
+    padding:40px;
+    width:85%;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+    transition:0.4s;
+    animation: slideUp 1.5s ease;
+    background-image: url(image/assets/video/yellow.jpg)
+}
+
+section:hover{
+    transform: translateY(-10px);
+}
+
+h2{
+    border-bottom:3px solid #004080;
+    padding-bottom:8px;
+    margin-bottom:20px;
+}
+
+h3{
+    margin-top:15px;
+    color:#004080;
+}
+
+ul{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+/* Button */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#004080;
+    color:white;
+    border-radius:30px;
+    text-decoration:none;
+    transition:0.3s;
+    box-shadow:0 0 40px rgba(0,64,128,0.7);
+}
+
+.btn:hover{
+    background:#0066cc;
+    box-shadow:0 0 25px rgba(0,102,204,1);
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:25px;
+    background:#001a33;
+    margin-top:50px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Animations */
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+@keyframes slideUp{
+    from{transform:translateY(40px); opacity:0;}
+    to{transform:translateY(0); opacity:1;}
+}
+
+@media(max-width:768px){
+    section{
+        width:95%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="header"> </div>
+<div class="topnav">
+  <a href="index.html">LCBA</a>
+  <a href="ict.html">ICT</a>
+  <a href="image.html">Image Gallery</a>
+  <a href="video.html">Video Gallery</a>
+  <a href="game.html" style="float:right">Game</a>
+</div>
+
+</nav>
+
+<header>
+    <h1>TVL – Information and Communication Technology (ICT)</h1>
+    <p>Empowering Future IT Professionals in the Digital World 💻</p>
+    <a href="#about" class="btn">Learn More</a>
+</header>
+
+<section id="about">
+    <h2>About TVL–ICT</h2>
+    <p>
+        The TVL–ICT Strand prepares students for careers in technology through
+        hands-on training and real-world learning experiences. It is ideal for
+        students who enjoy coding, web design, and computer servicing.
+    </p>
+</section>
+
+<section id="goals">
+    <h2>Main Goals</h2>
+    <ul>
+        <li>Equip students with strong technical computer skills</li>
+        <li>Provide real-world ICT training</li>
+        <li>Prepare learners for employment or IT college programs</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>What Students Learn</h2>
+
+    <h3>Computer System Servicing</h3>
+    <ul>
+        <li>Assembling and maintaining computers</li>
+        <li>Installing operating systems</li>
+        <li>Troubleshooting hardware and software</li>
+    </ul>
+
+    <h3>Programming & Coding</h3>
+    <ul>
+        <li>Basic coding skills</li>
+        <li>Software development fundamentals</li>
+    </ul>
+
+    <h3>Web Development</h3>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Responsive web design</li>
+    </ul>
+
+    <h3>Multimedia & Digital Design</h3>
+    <ul>
+        <li>Graphic design</li>
+        <li>Photo & video editing</li>
+    </ul>
+</section>
+
+<section id="careers">
+    <h2>Career Opportunities</h2>
+    <ul>
+        <li>Computer Technician</li>
+        <li>IT Support Staff</li>
+        <li>Web Developer</li>
+        <li>Graphic Designer</li>
+        <li>Programmer</li>
+        <li>Multimedia Editor</li>
+    </ul>
+</section>
+
+<footer>
+    © 2026 TVL–ICT Strand | Senior High School Program <br>
+    P. Burgos St., Brgy. 3, Calamba, 4027 Laguna, Philippines <br>
+       tel: SMART +639610745530 <br>
+       E-mail: info@lcba.edu.ph <br>
+      <a href="https://www.facebook.com/LCBAofficial"> <button> Visit more </button> </a>
+</footer>
+
+</body>
+</html>

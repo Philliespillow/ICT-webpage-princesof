@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Video Page</title>
+    <link rel="stylesheet" href="all.css">
+    <style>
+        /* Reset and Basic Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Video Section Layout */
+        .video-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        /* Individual Video Box */
+        .video-box {
+            background-color:navy;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .video-box h2 {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        /* Video Element Styling */
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            display: block;
+        }
+
+        /* Footer */
+        footer{
+    text-align:center;
+    padding:25px;
+    background:#001a33;
+    margin-top:50px;
+    }
+    </style>
+</head>
+<body>
+
+    
+
+    <!-- Navigation -->
+    <nav>
+<div class="header"> </div>
+<div class="topnav">
+  <a href="index.html">LCBA</a>
+  <a href="ict.html">ICT</a>
+  <a href="image.html">Image Gallery</a>
+  <a href="video.html">Video Gallery</a>
+  <a href="game.html" style="float:right">Game</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="video-section">
+
+            <!-- Video 1 -->
+            <div class="video-box">
+                <video controls muted loop>
+                    <source src="./image/assets/video/CSS Tutorial Video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p style="margin-top: 10px; color: #666; font-size: 0.9em;"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+    © 2026 TVL–ICT Strand | Senior High School Program <br>
+    P. Burgos St., Brgy. 3, Calamba, 4027 Laguna, Philippines <br>
+       tel: SMART +639610745530 <br>
+       E-mail: info@lcba.edu.ph <br>
+      <a href="https://www.facebook.com/LCBAofficial"> <button> Visit more </button> </a>
+</footer>
+
+</body>
+</html>

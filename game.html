@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Catch the Bat Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="all.css">
+
+ <style>
+   /* Main Content Container */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Footer */
+        footer {
+            text-align:center;
+            padding:25px;
+            background:#001a33;
+            margin-top:50px;
+            font-family: 'Segoe UI', sans-serif;
+        }
+</style>
+</head>
+ <nav>
+
+<div class="header"> </div>
+<div class="topnav">
+  <a href="index.html">LCBA</a>
+  <a href="ict.html">ICT</a>
+  <a href="image.html">Image Gallery</a>
+  <a href="video.html">Video Gallery</a>
+  <a href="game.html" style="float:right">Game</a>
+    </nav>
+<body>
+  <div id="gameArea">
+    <div id="bat"></div>
+    <div id="startCountdown"></div>
+
+    <!-- HUD -->
+    <div id="hud">
+      <div id="score">Score: 0</div>
+      <div id="timer">Time: 30s</div>
+      <div id="bestScore">Best Score: 0</div>
+    </div>
+
+    <!-- Intro Screen -->
+    <div id="startScreen">
+      <h1 id="gameTitle">Catch the Bat 🦇 <br> Created by: Inventiveness </h1>
+      <button id="playBtn">Play</button>
+    </div>
+
+    <!-- Game Over -->
+    <div id="gameOver" style="display:none;">
+      <span id="gameOverText">Game Over!</span><br> <br>
+      Final Score: <span id="finalScore"></span><br> <br>
+      <button id="restartBtn">Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer>
+    © 2026 TVL–ICT Strand | Senior High School Program <br>
+    P. Burgos St., Brgy. 3, Calamba, 4027 Laguna, Philippines <br>
+       tel: SMART +639610745530 <br>
+       E-mail: info@lcba.edu.ph <br>
+      <a href="https://www.facebook.com/LCBAofficial"> <button> Visit more </button> </a>
+  </footer>
+
+</body>
+</html>

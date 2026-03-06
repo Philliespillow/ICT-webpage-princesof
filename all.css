@@ -1,0 +1,74 @@
+.header {
+  position: relative;
+  padding: 30px;
+  text-align: center;
+  background-image: url("./image/assets/video/superlupet.png");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(135deg, blue, lightblue,darkblue);
+    color:white;
+}
+
+/* Navigation */
+nav{
+    background:darkblue;
+    padding:15px;
+    text-align:center;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#66b3ff;
+}
+
+/* Header */
+header{
+    text-align:center;
+    padding:80px 20px;
+    animation: fadeIn 2s ease-in;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:15px;
+    font-size:18px;
+    color:#cce6ff;
+}
+
+.header1 {
+  position: relative;
+  padding: 30px;
+  text-align: center;
+  background-image: url("image/assets/video/lcba bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;   /* ensures visibility */
+  height: 40vh;        /* scales with viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
